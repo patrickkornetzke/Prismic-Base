@@ -42,84 +42,85 @@
         }
       }
     },
-    "Meta": {
-      "meta_page_title": {
-        "type": "StructuredText",
-        "config": {
-          "multi": "paragraph",
-          "label": "Meta Page Title",
-          "placeholder": "Page meta field <title>"
+    "Meta Data" : {
+      "meta_page_title" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph",
+          "label" : "Meta Page Title",
+          "placeholder" : "70 characters or less. Use brand name in title tag."
         }
       },
-      "meta_page_description": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "Meta Page Description"
-        }
-      },
-      "og_image": {
-        "type": "Image",
-        "config": {
-          "constraint": {
-            "width": 1600,
-            "height": 840
-          },
-          "thumbnails": [
-            {
-              "name": "square",
-              "width": 500,
-              "height": 500
-            }
-          ],
-          "label": "og:image"
-        }
-      },
-      "og_title": {
-        "type": "StructuredText",
-        "config": {
-          "multi": "paragraph",
-          "label": "og:title",
-          "placeholder": "40 characters for mobile and 60 for desktop is the sweetspot"
-        }
-      },
-      "og_description": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "og:description"
-        }
-      },
-      "og_url": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "OG URL",
-          "placeholder": "https://www.mywebsite.com"
+      "meta_page_description" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "paragraph",
+          "label" : "Meta Page Description",
+          "placeholder" : "175 characters or less. End with a call to action."
         }
       }
     },
-    "Page Styles": {
-      "page_accent_color": {
-        "type": "Color",
-        "config": {
-          "label": "Page Accent Color"
+    "OG Data" : {
+      "og_image" : {
+        "type" : "Image",
+        "config" : {
+          "constraint" : {
+            "width" : 1600,
+            "height" : 840
+          },
+          "thumbnails" : [ {
+            "name" : "square",
+            "width" : 500,
+            "height" : 500
+          } ],
+          "label" : "og:image"
         }
       },
-      "css_page_id": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "CSS Page ID",
-          "placeholder": "This give the page a unique CSS ID"
+      "og_title" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph",
+          "label" : "og:title",
+          "placeholder" : "40 characters for mobile and 60 for desktop is the sweetspot"
         }
       },
-      "css_page_class": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "CSS Page Class",
-          "placeholder": "This give the page a unique CSS class"
+      "og_description" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "paragraph",
+          "label" : "og:description"
+        }
+      },
+      "og_url" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "paragraph",
+          "label" : "OG URL",
+          "placeholder" : "https://www.mywebsite.com"
+        }
+      }
+    },
+    "Page Styles" : {
+      "page_accent_color" : {
+        "type" : "Color",
+        "config" : {
+          "label" : "Page Accent Color"
+        }
+      },
+      "css_page_id" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "paragraph",
+          "label" : "CSS Page ID",
+          "placeholder" : "This give the page a unique CSS ID"
+        }
+      },
+      "css_page_class" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "paragraph",
+          "label" : "CSS Page Class",
+          "placeholder" : "This give the page a unique CSS class"
         }
       }
     }
