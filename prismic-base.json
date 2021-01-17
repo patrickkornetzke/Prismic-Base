@@ -1,0 +1,126 @@
+{
+    "Main": {
+      "page_header_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 320,
+            "height": 568
+          },
+          "thumbnails": [
+            {
+              "name": "Tablet",
+              "width": 768,
+              "height": 992
+            },
+            {
+              "name": "Desktop",
+              "width": 1440,
+              "height": 700
+            },
+            {
+              "name": "Large",
+              "width": 1600,
+              "height": 780
+            }
+          ],
+          "label": "Page Header Image"
+        }
+      },
+      "page_header_subline": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading3",
+          "label": "Page Header Subline"
+        }
+      },
+      "page_header_headline": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Page Header Headline"
+        }
+      }
+    },
+    "Meta": {
+      "meta_page_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph",
+          "label": "Meta Page Title",
+          "placeholder": "Page meta field <title>"
+        }
+      },
+      "meta_page_description": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "Meta Page Description"
+        }
+      },
+      "og_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1600,
+            "height": 840
+          },
+          "thumbnails": [
+            {
+              "name": "square",
+              "width": 500,
+              "height": 500
+            }
+          ],
+          "label": "og:image"
+        }
+      },
+      "og_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph",
+          "label": "og:title",
+          "placeholder": "40 characters for mobile and 60 for desktop is the sweetspot"
+        }
+      },
+      "og_description": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "og:description"
+        }
+      },
+      "og_url": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "OG URL",
+          "placeholder": "https://www.mywebsite.com"
+        }
+      }
+    },
+    "Page Styles": {
+      "page_accent_color": {
+        "type": "Color",
+        "config": {
+          "label": "Page Accent Color"
+        }
+      },
+      "css_page_id": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "CSS Page ID",
+          "placeholder": "This give the page a unique CSS ID"
+        }
+      },
+      "css_page_class": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "CSS Page Class",
+          "placeholder": "This give the page a unique CSS class"
+        }
+      }
+    }
+  }
